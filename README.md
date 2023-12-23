@@ -4,6 +4,10 @@
 
 This project is a web-based implementation of the popular game show "Who Wants to Be a Millionaire", developed using Next.js and deployed on Vercel. Players answer a series of multiple-choice questions, with increasing difficulty, to progress towards the grand prize.
 
+## Live Demo
+
+The application is deployed and can be accessed at [https://how-to-become-a-millionaire-tau.vercel.app/](https://how-to-become-a-millionaire-tau.vercel.app/).
+
 ## Getting Started
 
 ### Prerequisites
@@ -32,7 +36,7 @@ This project is a web-based implementation of the popular game show "Who Wants t
 
 ## Usage
 
-Navigate to `http://localhost:3000` in your web browser to start playing the game. Follow the on-screen instructions to answer questions and progress through the game.
+To play the game, visit the live site at [https://how-to-become-a-millionaire-tau.vercel.app/](https://how-to-become-a-millionaire-tau.vercel.app/) or run it locally by navigating to `http://localhost:3000` in your web browser. Follow the on-screen instructions to answer questions and progress through the game.
 
 ## Deployment
 

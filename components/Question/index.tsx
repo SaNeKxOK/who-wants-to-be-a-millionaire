@@ -44,7 +44,7 @@ function Question() {
         key={option.id}
         letter={option.letter}
         text={option.text}
-        onClick={() => onAnswer(option)}
+        onClick={() => !userAnswer && onAnswer(option)}
         type={optionType}
       />
     );

@@ -39,7 +39,9 @@ function GameOverScreen() {
           <div className={styles.leftSide}>
             <div className={styles.textWrapper}>
               <p className={styles.label}>Total score:</p>
-              <h1 className={styles.title}>${score} earned</h1>
+              <h1 className={styles.title}>
+                ${score.toLocaleString()} earned
+              </h1>
             </div>
             <Button onClick={onReset} text="Try again" />
           </div>

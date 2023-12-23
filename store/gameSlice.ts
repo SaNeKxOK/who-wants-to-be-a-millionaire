@@ -23,7 +23,7 @@ export const gameSlice = createSlice({
       state.score =
         state.questions[state.currentQuestionIndex].reward;
       state.currentQuestionIndex += 1;
-      if (state.currentQuestionIndex > state.questions.length)
+      if (state.currentQuestionIndex === state.questions.length)
         state.gameOver = true;
     },
     resetGame: (state: IGameState) => {

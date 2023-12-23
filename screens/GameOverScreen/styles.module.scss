@@ -3,6 +3,7 @@
 
 .gameOverScreen {
   @include flex-center;
+  background: var(--gray-light);
 }
 
 .textWrapper {
