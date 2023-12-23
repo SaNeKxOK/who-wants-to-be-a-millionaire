@@ -25,7 +25,7 @@ function Question() {
       } else {
         dispatch(endGame());
       }
-    }, 3000);
+    }, 2000);
   };
 
   const renderOptionButton = (option: IOption) => {

@@ -12,9 +12,11 @@
     padding: 4px 0;
   }
 
-  svg:hover {
-    path {
-      stroke: var(--orange);
+  :hover {
+    svg {
+      path {
+        stroke: var(--orange);
+      }
     }
   }
   svg {
