@@ -61,7 +61,7 @@ function Step({ text, type }: StepProps) {
   return (
     <div className={classNames(styles.wrapper, styles[type])}>
       {renderSvg()}
-      <div className={styles.textWrapper}>${text}</div>
+      <p className={styles.textWrapper}>${text}</p>
     </div>
   );
 }

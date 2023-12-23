@@ -83,7 +83,7 @@ function OptionButton({
       >
         <p className={styles.letterWrapper}>{letter}</p>
         {renderSvg()}
-        <div className={styles.answerWrapper}>{text}</div>
+        <p className={styles.answerWrapper}>{text}</p>
       </button>
     </div>
   );

@@ -50,6 +50,13 @@ h1 {
   }
 }
 
+p {
+  font-size: 0.875rem;
+  @include screen('desktop') {
+    font-size: 1.25rem;
+  }
+}
+
 button {
   all: unset;
 }
