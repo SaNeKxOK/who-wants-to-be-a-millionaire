@@ -15,11 +15,11 @@ This project is a web-based implementation of the popular game show "Who Wants t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/millionaire-game.git
+   git clone https://github.com/SaNeKxOK/how-to-become-a-millionaire
    ```
 2. Navigate to the project directory:
    ```bash
-   cd millionaire-game
+   cd how-to-become-a-millionaire
    ```
 3. Install dependencies:
    ```bash
