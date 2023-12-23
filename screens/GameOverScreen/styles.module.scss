@@ -1,0 +1,22 @@
+@import '@/styles/_mixins.scss';
+@import '../styles.module.scss';
+
+.gameOverScreen {
+  @include flex-center;
+}
+
+.textWrapper {
+  width: 100%;
+  text-align: center;
+
+  @include screen('desktop') {
+    text-align: start;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .label {
+    font-size: 2rem;
+    opacity: 0.5;
+  }
+}

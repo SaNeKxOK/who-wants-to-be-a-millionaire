@@ -1,0 +1,51 @@
+@import '@/styles/_mixins.scss';
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  height: 100%;
+  max-width: 100%;
+
+  @include screen('desktop') {
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+  }
+}
+
+.picture {
+  width: 85%;
+
+  @include screen('nedesktop') {
+    padding: 80px 0 20px;
+    max-height: 50vh;
+  }
+
+  @include screen('desktop') {
+    width: 600px;
+  }
+}
+
+.leftSide {
+  height: 100%;
+  width: 600px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+
+  @include screen('nedesktop') {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px 48px;
+
+    button {
+      width: 100%;
+    }
+  }
+}

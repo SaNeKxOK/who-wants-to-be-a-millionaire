@@ -1,0 +1,431 @@
+{
+  "questions": [
+      {
+          "id": "q1",
+          "question": "What is the capital of France or Ukraine?",
+          "options": [
+              {
+                  "id": "q1a1",
+                  "letter": "A",
+                  "text": "Lyon",
+                  "isCorrect": false,
+                  "questionId": "q1"
+              },
+              {
+                  "id": "q1a2",
+                  "letter": "B",
+                  "text": "Marseille",
+                  "isCorrect": false,
+                  "questionId": "q1"
+              },
+              {
+                  "id": "q1a3",
+                  "letter": "C",
+                  "text": "Paris",
+                  "isCorrect": true,
+                  "questionId": "q1"
+              },
+              {
+                  "id": "q1a4",
+                  "letter": "D",
+                  "text": "Nice",
+                  "isCorrect": false,
+                  "questionId": "q1"
+              },
+              {
+                  "id": "q1a5",
+                  "letter": "F",
+                  "text": "Kyiv",
+                  "isCorrect": true,
+                  "questionId": "q1"
+              }
+          ],
+          "reward": 500
+      },
+      {
+          "id": "q2",
+          "question": "What is the chemical symbol for gold?",
+          "options": [
+              {
+                  "id": "q2a1",
+                  "letter": "A",
+                  "text": "Au",
+                  "isCorrect": true,
+                  "questionId": "q2"
+              },
+              {
+                  "id": "q2a2",
+                  "letter": "B",
+                  "text": "Ag",
+                  "isCorrect": false,
+                  "questionId": "q2"
+              },
+              {
+                  "id": "q2a3",
+                  "letter": "C",
+                  "text": "Fe",
+                  "isCorrect": false,
+                  "questionId": "q2"
+              },
+              {
+                  "id": "q2a4",
+                  "letter": "D",
+                  "text": "Cu",
+                  "isCorrect": false,
+                  "questionId": "q2"
+              }
+          ],
+          "reward": 1000
+      },
+      {
+          "id": "q3",
+          "question": "Who wrote 'Hamlet'?",
+          "options": [
+              {
+                  "id": "q3a1",
+                  "letter": "A",
+                  "text": "Charles Dickens",
+                  "isCorrect": false,
+                  "questionId": "q3"
+              },
+              {
+                  "id": "q3a2",
+                  "letter": "B",
+                  "text": "William Shakespeare",
+                  "isCorrect": true,
+                  "questionId": "q3"
+              },
+              {
+                  "id": "q3a3",
+                  "letter": "C",
+                  "text": "Jane Austen",
+                  "isCorrect": false,
+                  "questionId": "q3"
+              },
+              {
+                  "id": "q3a4",
+                  "letter": "D",
+                  "text": "Mark Twain",
+                  "isCorrect": false,
+                  "questionId": "q3"
+              }
+          ],
+          "reward": 2000
+      },
+      {
+          "id": "q4",
+          "question": "In which year did World War II end?",
+          "options": [
+              {
+                  "id": "q4a1",
+                  "letter": "A",
+                  "text": "1945",
+                  "isCorrect": true,
+                  "questionId": "q4"
+              },
+              {
+                  "id": "q4a2",
+                  "letter": "B",
+                  "text": "1944",
+                  "isCorrect": false,
+                  "questionId": "q4"
+              },
+              {
+                  "id": "q4a3",
+                  "letter": "C",
+                  "text": "1939",
+                  "isCorrect": false,
+                  "questionId": "q4"
+              },
+              {
+                  "id": "q4a4",
+                  "letter": "D",
+                  "text": "1950",
+                  "isCorrect": false,
+                  "questionId": "q4"
+              }
+          ],
+          "reward": 4000
+      },
+      {
+          "id": "q5",
+          "question": "Which element is represented by the atomic number 1?",
+          "options": [
+              {
+                  "id": "q5a1",
+                  "letter": "A",
+                  "text": "Oxygen",
+                  "isCorrect": false,
+                  "questionId": "q5"
+              },
+              {
+                  "id": "q5a2",
+                  "letter": "B",
+                  "text": "Hydrogen",
+                  "isCorrect": true,
+                  "questionId": "q5"
+              },
+              {
+                  "id": "q5a3",
+                  "letter": "C",
+                  "text": "Carbon",
+                  "isCorrect": false,
+                  "questionId": "q5"
+              },
+              {
+                  "id": "q5a4",
+                  "letter": "D",
+                  "text": "Helium",
+                  "isCorrect": false,
+                  "questionId": "q5"
+              }
+          ],
+          "reward": 8000
+      },
+      {
+          "id": "q6",
+          "question": "Which artist painted the Mona Lisa?",
+          "options": [
+              {
+                  "id": "q6a1",
+                  "letter": "A",
+                  "text": "Vincent Van Gogh",
+                  "isCorrect": false,
+                  "questionId": "q6"
+              },
+              {
+                  "id": "q6a2",
+                  "letter": "B",
+                  "text": "Leonardo da Vinci",
+                  "isCorrect": true,
+                  "questionId": "q6"
+              },
+              {
+                  "id": "q6a3",
+                  "letter": "C",
+                  "text": "Pablo Picasso",
+                  "isCorrect": false,
+                  "questionId": "q6"
+              },
+              {
+                  "id": "q6a4",
+                  "letter": "D",
+                  "text": "Michelangelo",
+                  "isCorrect": false,
+                  "questionId": "q6"
+              }
+          ],
+          "reward": 16000
+      },
+      {
+          "id": "q7",
+          "question": "In computer science, what does 'CPU' stand for?",
+          "options": [
+              {
+                  "id": "q7a1",
+                  "letter": "A",
+                  "text": "Central Processing Unit",
+                  "isCorrect": true,
+                  "questionId": "q7"
+              },
+              {
+                  "id": "q7a2",
+                  "letter": "B",
+                  "text": "Central Programming Unit",
+                  "isCorrect": false,
+                  "questionId": "q7"
+              },
+              {
+                  "id": "q7a3",
+                  "letter": "C",
+                  "text": "Computer Processing Unit",
+                  "isCorrect": false,
+                  "questionId": "q7"
+              },
+              {
+                  "id": "q7a4",
+                  "letter": "D",
+                  "text": "Central Processor Unit",
+                  "isCorrect": false,
+                  "questionId": "q7"
+              }
+          ],
+          "reward": 32000
+      },
+      {
+          "id": "q8",
+          "question": "What is the smallest planet in our Solar System?",
+          "options": [
+              {
+                  "id": "q8a1",
+                  "letter": "A",
+                  "text": "Venus",
+                  "isCorrect": false,
+                  "questionId": "q8"
+              },
+              {
+                  "id": "q8a2",
+                  "letter": "B",
+                  "text": "Earth",
+                  "isCorrect": false,
+                  "questionId": "q8"
+              },
+              {
+                  "id": "q8a3",
+                  "letter": "C",
+                  "text": "Mercury",
+                  "isCorrect": true,
+                  "questionId": "q8"
+              },
+              {
+                  "id": "q8a4",
+                  "letter": "D",
+                  "text": "Mars",
+                  "isCorrect": false,
+                  "questionId": "q8"
+              }
+          ],
+          "reward": 64000
+      },
+      {
+          "id": "q9",
+          "question": "What is the chemical symbol for Iron?",
+          "options": [
+              {
+                  "id": "q9a1",
+                  "letter": "A",
+                  "text": "Fe",
+                  "isCorrect": true,
+                  "questionId": "q9"
+              },
+              {
+                  "id": "q9a2",
+                  "letter": "B",
+                  "text": "Ir",
+                  "isCorrect": false,
+                  "questionId": "q9"
+              },
+              {
+                  "id": "q9a3",
+                  "letter": "C",
+                  "text": "In",
+                  "isCorrect": false,
+                  "questionId": "q9"
+              },
+              {
+                  "id": "q9a4",
+                  "letter": "D",
+                  "text": "I",
+                  "isCorrect": false,
+                  "questionId": "q9"
+              }
+          ],
+          "reward": 125000
+      },
+      {
+          "id": "q10",
+          "question": "Who wrote the novel '1984'?",
+          "options": [
+              {
+                  "id": "q10a1",
+                  "letter": "A",
+                  "text": "George Orwell",
+                  "isCorrect": true,
+                  "questionId": "q10"
+              },
+              {
+                  "id": "q10a2",
+                  "letter": "B",
+                  "text": "Aldous Huxley",
+                  "isCorrect": false,
+                  "questionId": "q10"
+              },
+              {
+                  "id": "q10a3",
+                  "letter": "C",
+                  "text": "J.R.R. Tolkien",
+                  "isCorrect": false,
+                  "questionId": "q10"
+              },
+              {
+                  "id": "q10a4",
+                  "letter": "D",
+                  "text": "Ernest Hemingway",
+                  "isCorrect": false,
+                  "questionId": "q10"
+              }
+          ],
+          "reward": 250000
+      },
+      {
+          "id": "q11",
+          "question": "What is the capital city of Australia?",
+          "options": [
+              {
+                  "id": "q11a1",
+                  "letter": "A",
+                  "text": "Sydney",
+                  "isCorrect": false,
+                  "questionId": "q11"
+              },
+              {
+                  "id": "q11a2",
+                  "letter": "B",
+                  "text": "Perth",
+                  "isCorrect": false,
+                  "questionId": "q11"
+              },
+              {
+                  "id": "q11a3",
+                  "letter": "C",
+                  "text": "Melbourne",
+                  "isCorrect": false,
+                  "questionId": "q11"
+              },
+              {
+                  "id": "q11a4",
+                  "letter": "D",
+                  "text": "Canberra",
+                  "isCorrect": true,
+                  "questionId": "q11"
+              }
+          ],
+          "reward": 500000
+      },
+      {
+          "id": "q12",
+          "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+          "options": [
+              {
+                  "id": "q12a1",
+                  "letter": "A",
+                  "text": "Oxygen",
+                  "isCorrect": false,
+                  "questionId": "q12"
+              },
+              {
+                  "id": "q12a2",
+                  "letter": "B",
+                  "text": "Nitrogen",
+                  "isCorrect": false,
+                  "questionId": "q12"
+              },
+              {
+                  "id": "q12a3",
+                  "letter": "C",
+                  "text": "Carbon Dioxide",
+                  "isCorrect": true,
+                  "questionId": "q12"
+              },
+              {
+                  "id": "q12a4",
+                  "letter": "D",
+                  "text": "Hydrogen",
+                  "isCorrect": false,
+                  "questionId": "q12"
+              }
+          ],
+          "reward": 1000000
+      }
+  ]
+}

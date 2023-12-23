@@ -1,0 +1,16 @@
+@import '@/styles/_mixins.scss';
+
+.layout {
+  display: flex;
+}
+
+.switchButton {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  @include screen('nedesktop') {
+    display: block;
+  }
+}

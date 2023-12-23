@@ -1,0 +1,11 @@
+@import '@/styles/_mixins.scss';
+@import '../styles.module.scss';
+
+.background {
+  background: linear-gradient(
+    to bottom right,
+    var(--white) 50%,
+    var(--orange-light) 50%
+  );
+  @include flex-center;
+}

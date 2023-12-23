@@ -1,0 +1,51 @@
+@import '@/styles/_mixins.scss';
+
+.button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  stroke: var(--orange);
+  text-align: center;
+
+  width: 18rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0.5rem;
+
+  &.primary {
+    color: var(--white);
+    background-color: var(--orange);
+
+    &:hover,
+    &:focus {
+      background-color: var(--orange-medium);
+    }
+
+    &:active {
+      background-color: var(--orange-dark);
+    }
+  }
+
+  &.secondary {
+    color: var(--orange);
+    background-color: var(--white);
+
+    &:hover,
+    &:focus {
+      background-color: var(--orange-light);
+    }
+
+    &:active {
+      background-color: var(--orange-dark);
+    }
+  }
+
+  @include screen('desktop') {
+    width: 18.5rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    border-radius: 12px;
+  }
+}

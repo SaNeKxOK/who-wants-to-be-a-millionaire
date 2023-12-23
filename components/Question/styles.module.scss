@@ -1,0 +1,59 @@
+@import '@/styles/_mixins.scss';
+
+.questionWrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--gray-light);
+  padding: 80px;
+
+  @include screen('mobile') {
+    padding: 0;
+  }
+
+  @include screen('tablet') {
+    padding: 8px;
+  }
+
+  @include screen('nedesktop') {
+    align-items: center;
+  }
+  .questionTextWrapper {
+    @include screen('mobile') {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 38rem;
+    }
+    h2 {
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+
+      @include screen('nedesktop') {
+        padding: 12px;
+        text-align: center;
+      }
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    div {
+      box-sizing: border-box;
+    }
+
+    @include screen('nedesktop') {
+      width: initial;
+      justify-content: center;
+    }
+    @include screen('mobile') {
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import '@/styles/_mixins.scss';
+
+.wrapper {
+  position: relative;
+  width: fit-content;
+  height: 40px;
+
+  @include screen('nedesktop') {
+    height: 32px;
+  }
+  .textWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+  }
+
+  svg {
+    path {
+      stroke: var(--gray);
+      fill: var(--white);
+    }
+  }
+  &.current {
+    svg > path {
+      stroke: var(--orange);
+    }
+    color: var(--orange);
+  }
+  &.finished {
+    svg > path {
+      stroke: var(--gray);
+    }
+    color: var(--gray);
+  }
+}

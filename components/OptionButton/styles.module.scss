@@ -1,0 +1,60 @@
+@import '@/styles/_mixins.scss';
+
+.button {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 0;
+  cursor: pointer;
+
+  @include screen('desktop') {
+    margin: 1rem 0;
+    padding: 4px 0;
+  }
+
+  svg:hover {
+    path {
+      stroke: var(--orange);
+    }
+  }
+  svg {
+    path {
+      stroke: var(--gray);
+      fill: var(--white);
+    }
+    &.correct {
+      path {
+        stroke: var(--green);
+        fill: var(--green-light);
+      }
+    }
+    &.inactive:active {
+      path {
+        stroke: var(--orange);
+        fill: var(--orange-light);
+      }
+    }
+    &.wrong {
+      path {
+        stroke: var(--red);
+        fill: var(--red-light);
+      }
+    }
+  }
+}
+
+.letterWrapper {
+  position: absolute;
+  color: var(--orange);
+  font-weight: 600;
+  top: 50%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+}
+
+.answerWrapper {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(0%, -50%);
+}
