@@ -19,11 +19,11 @@ The application is deployed and can be accessed at [https://how-to-become-a-mill
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SaNeKxOK/how-to-become-a-millionaire
+   git clone https://github.com/SaNeKxOK/who-wants-to-be-a-millionaire
    ```
 2. Navigate to the project directory:
    ```bash
-   cd how-to-become-a-millionaire
+   cd who-wants-to-be-a-millionaire
    ```
 3. Install dependencies:
    ```bash
